@@ -1,5 +1,25 @@
+"""
+Given a string s containing just the characters '(', ')', '{', '}', '[' and ']',
+determine if the input string is valid.
+
+An input string is valid if:
+
+Open brackets must be closed by the same type of brackets.
+Open brackets must be closed in the correct order.
+Every close bracket has a corresponding open bracket of the same type.
+"""
+
+
 class Solution:
     def isValid(self, s: str) -> bool:
+        """_summary_
+        Runtime 20 ms Beats 99.21% Memory 13.8 MB Beats 59.22%
+        Args:
+            s (str): some sequence of symbols {[()]}
+
+        Returns:
+            bool: True or False - is a valid bracket sequence
+        """
         stack = []
         brackets_dict = {'(': ')', '[': ']', '{': '}'}
         for symbol in s:
