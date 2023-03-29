@@ -24,9 +24,6 @@ Output: 5, nums = [0,1,2,3,4,_,_,_,_,_]
 """
 
 
-from typing import List
-
-
 class Solution:
     def removeDuplicates(nums: List[int]) -> int:
         """_summary_
