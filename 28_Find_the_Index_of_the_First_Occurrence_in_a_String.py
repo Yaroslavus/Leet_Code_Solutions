@@ -18,8 +18,13 @@ haystack and needle consist of only lowercase English characters.
 """
 
 
+# For trying in the LeetCode IDE/Web IDE:
+# Add "self" as function first argument
+# Remove _NUMBER from the name of the function you want to test
+
+
 class Solution:
-    def strStr(self, haystack: str, needle: str) -> int:
+    def strStr_1(haystack: str, needle: str) -> int:
         """_summary_
         Runtime 29 ms Beats 77.78% Memory 13.8 MB Beats 94.84%
 
@@ -39,7 +44,7 @@ class Solution:
 
 
 class Solution:
-    def strStr(self, haystack: str, needle: str) -> int:
+    def strStr_2(haystack: str, needle: str) -> int:
         """_summary_
         Runtime 30 ms Beats 74.22% Memory 13.8 MB Beats 51.56%
 
@@ -60,7 +65,7 @@ class Solution:
 YOU CAN ALSO USE:
 
 class Solution:
-    def strStr(self, haystack: str, needle: str) -> int:
+    def strStr_3(haystack: str, needle: str) -> int:
         return haystack.find(needle)
 
 Runtime 34 ms Beats 45.7% Memory 13.8 MB Beats 94.84%
@@ -68,7 +73,7 @@ Runtime 34 ms Beats 45.7% Memory 13.8 MB Beats 94.84%
 OR
 
 class Solution:
-    def strStr(self, haystack: str, needle: str) -> int:
+    def strStr_4(haystack: str, needle: str) -> int:
         if needle in haystack:
             return haystack.find(needle)
         return -1

@@ -23,8 +23,12 @@ Follow up: Could you solve it without converting the integer to a string?
 """
 
 
+# For trying in the LeetCode IDE/Web IDE:
+# Add "self" as function first argument
+
+
 class Solution:
-    def isPalindrome(x: int) -> bool:
+    def isPalindrome_1(x: int) -> bool:
         """_summary_
         Runtime 76 ms Beats 19.53% Memory 13.9 MB Beats 7.93%
 
@@ -45,7 +49,7 @@ class Solution:
 
 
 class Solution:
-    def isPalindrome_1(x: int) -> bool:
+    def isPalindrome_2(x: int) -> bool:
         """_summary_
         Runtime 71 ms Beats 32.70% Memory 13.8 MB Beats 46.86%
 

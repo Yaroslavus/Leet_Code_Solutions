@@ -25,15 +25,20 @@ The number of nodes in both lists is in the range [0, 50].
 Both list1 and list2 are sorted in non-decreasing order.
 """
 
-# Uncomment to try in your IDE:
-#from typing import Optional
+# For trying in the LeetCode IDE/Web IDE:
+# Remove line "from typing import..."
+# Comment ListNode class definition
+# Add "self" as function first argument
+from typing import Optional
 
 
 # Definition for singly-linked list.
-#class ListNode:
-#    def __init__(self, val=0, next=None):
-#        self.val = val
-#        self.next = next
+class ListNode:
+    def __init__(self, val=0, next=None):
+        self.val = val
+        self.next = next
+
+
 class Solution:
     def mergeTwoLists(list1: Optional[ListNode],
                       list2: Optional[ListNode]) -> Optional[ListNode]:

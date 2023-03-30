@@ -29,8 +29,12 @@ s consists of parentheses only '()[]{}'.
 """
 
 
+# For trying in the LeetCode IDE/Web IDE:
+# Add "self" as function first argument
+
+
 class Solution:
-    def isValid(self, s: str) -> bool:
+    def isValid(s: str) -> bool:
         """_summary_
         Runtime 20 ms Beats 99.21% Memory 13.8 MB Beats 59.22%
         Args:

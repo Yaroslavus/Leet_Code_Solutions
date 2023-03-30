@@ -33,12 +33,14 @@ time complexity?
 """
 
 
-# Uncomment to try in your IDE:
-#from typing import List
+# For trying in the LeetCode IDE/Web IDE:
+# Remove line "from typing import..."
+# Add "self" as function first argument
+from typing import List
 
 
 class Solution:
-    def twoSum(self, nums: List[int], target: int) -> List[int]:
+    def twoSum(nums: List[int], target: int) -> List[int]:
         """
         Runtime 67 ms Beats 57.46% Memory 15.4 MB Beats 5.96%
         Args:

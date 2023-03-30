@@ -29,12 +29,15 @@ nums is sorted in non-decreasing order.
 """
 
 
-# Uncomment to try in your IDE:
-#from typing import List
+# For trying in the LeetCode IDE/Web IDE:
+# Remove line "from typing import..."
+# Add "self" as function first argument
+# Remove _NUMBER from the name of the function you want to test
+from typing import List
 
 
 class Solution:
-    def removeDuplicates(nums: List[int]) -> int:
+    def removeDuplicates_1(nums: List[int]) -> int:
         """_summary_
         Runtime 95 ms Beats 37.80% Memory 15.6 MB Beats 49.98%
         Runtime 83 ms Beats 87.56% Memory 15.7 MB Beats 9.82%
@@ -56,7 +59,7 @@ class Solution:
 
 
 class Solution:
-    def removeDuplicates(self, nums: List[int]) -> int:
+    def removeDuplicates_2(nums: List[int]) -> int:
         """_summary_
         Runtime 91 ms Beats 54.3% Memory 15.6 MB Beats 9.82%
 

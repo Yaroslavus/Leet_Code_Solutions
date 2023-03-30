@@ -20,12 +20,15 @@ strs[i] consists of only lowercase English letters.
 """
 
 
-# Uncomment to try in your IDE:
-#from typing import List
+# For trying in the LeetCode IDE/Web IDE:
+# Remove line "from typing import..."
+# Add "self" as function first argument
+# Remove _NUMBER from the name of the function you want to test
+from typing import List
 
 
 class Solution:
-    def longestCommonPrefix(self, strs: List[str]) -> str:
+    def longestCommonPrefix_1(strs: List[str]) -> str:
         """_summary_
         Runtime 34 ms Beats 72.61% Memory 13.8 MB Beats 79.11%
         Args:
@@ -43,7 +46,7 @@ class Solution:
 
 
 class Solution:
-    def longestCommonPrefix(self, strs: List[str]) -> str:
+    def longestCommonPrefix_2(strs: List[str]) -> str:
         """_summary_
         Runtime 35 ms Beats 66.66% Memory 13.9 MB Beats 38.28%
         Args:
