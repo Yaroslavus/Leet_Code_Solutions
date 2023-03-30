@@ -43,11 +43,12 @@ class Solution:
         Runtime 34 ms Beats 69.8% Memory 13.8 MB Beats 49.86%
 
         Args:
-            nums (List[int]): _description_
-            val (int): _description_
+            nums (List[int]): list with integers
+            val (int): value to delete from list
+            (in fact - shift all of them to the end of list)
 
         Returns:
-            int: _description_
+            int: index to slice the changed list
         """
         counter = len(nums) - 1
         iter = 0
@@ -73,11 +74,12 @@ class Solution:
         Runtime 23 ms Beats 99.15% Memory 13.8 MB Beats 95.15%
 
         Args:
-            nums (List[int]): _description_
-            val (int): _description_
+            nums (List[int]): list with integers
+            val (int): value to delete from list
 
         Returns:
-            int: _description_
+            int: value to delete from list
+            (in fact - shift all of them to the end of list)
         """
         counter = 0
         for i in range(len(nums)):
