@@ -56,7 +56,8 @@ class Solution:
         return -1
 
 
-"""YOU CAN ALSO USE:
+"""
+YOU CAN ALSO USE:
 
 class Solution:
     def strStr(self, haystack: str, needle: str) -> int:
