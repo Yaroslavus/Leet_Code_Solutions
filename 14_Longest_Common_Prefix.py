@@ -20,6 +20,10 @@ strs[i] consists of only lowercase English letters.
 """
 
 
+# Uncomment to try in your IDE:
+#from typing import List
+
+
 class Solution:
     def longestCommonPrefix(self, strs: List[str]) -> str:
         """_summary_

@@ -29,6 +29,10 @@ nums is sorted in non-decreasing order.
 """
 
 
+# Uncomment to try in your IDE:
+#from typing import List
+
+
 class Solution:
     def removeDuplicates(nums: List[int]) -> int:
         """_summary_

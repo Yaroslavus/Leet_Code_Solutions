@@ -33,6 +33,10 @@ time complexity?
 """
 
 
+# Uncomment to try in your IDE:
+#from typing import List
+
+
 class Solution:
     def twoSum(self, nums: List[int], target: int) -> List[int]:
         """
