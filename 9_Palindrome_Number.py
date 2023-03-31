@@ -25,6 +25,7 @@ Follow up: Could you solve it without converting the integer to a string?
 
 # For trying in the LeetCode IDE/Web IDE:
 # Add "self" as function first argument
+# Remove _NUMBER from the name of the function you want to test
 
 
 class Solution:
